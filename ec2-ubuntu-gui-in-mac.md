@@ -2,7 +2,7 @@
 title: '[AWS] Mac에서 AWS EC2 Ubuntu GUI 접속'
 date: '2023-09-01'
 main_category: "TECH"
-sub_category: "SQL"
+sub_category: "AWS"
 tags: ["AWS", "Mac", "Ubuntu", "GUI"]
 ---
 
