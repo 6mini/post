@@ -80,7 +80,7 @@ or
 
 ## 3-1. AWS IAM 설정
 
-먼저 자파가 우리의 AWS 계정을 조작할 수 있도록 권한을 주어야 한다. AWS에는 AWS IAM(Identity and Access Management)이라는 AWS 권한 관리 서비스가 있다.
+먼저 자파가 우리의 AWS 계정을 조작할 수 있도록 권한을 주어야 한다. AWS에는 [AWS IAM(Identity and Access Management)](https://us-east-1.console.aws.amazon.com/iam)이라는 AWS 권한 관리 서비스가 있다.
 
 ![AWS IAM을 통해 액세스 키를 만드는 방법](https://yoonminlee-blog-image.s3.ap-northeast-2.amazonaws.com/zappa-flask-serverless-lambda-3.png)
 
