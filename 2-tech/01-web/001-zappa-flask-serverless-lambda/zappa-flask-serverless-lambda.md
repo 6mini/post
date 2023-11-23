@@ -27,7 +27,7 @@ tags: [Zappa, Flask, AWS Lambda, 서버리스 배포]
 ```sh
 $ mkdir zappa-tutorial                  # zappa-tutorial이라는 이름의 프로젝트 폴더 생성
 $ cd zappa-tutorial                     # zappa-tutorial 폴더로 이동
-zappa-tutorial$ pip install virtualenv # virtualenv 설치
+zappa-tutorial$ pip install virtualenv  # virtualenv 설치
 zappa-tutorial$ virtualenv zappa_venv   # zappa_venv라는 이름의 가상환경 생성
 zappa-tutorial$ source zappa-tutorial/zappa_venv/bin/activate # 가상환경 실행
 (zappa_venv) zappa-tutorial$            # 가상환경이 실행되었음을 확인 
