@@ -22,7 +22,7 @@ https://q1w2e3r4t5y6.execute-api.ap-northeast-2.amazonaws.com/dev/
 이상적인 대부분의 URL은 다음과 같다:
 
 ```
-/
+https://yoonminlee.com/
 ```
 
 이처럼 도메인을 아름답게 만드는 과정은 자파를 통해 쉽게 진행할 수 있다. 실제 서비스를 운영하기 위해서는 사용자가 기억하기 쉬운 도메인이 필수적이다. AWS에서 제공하는 기본 URL보다는 브랜드와 연관된 도메인이 좋을 것 같다.
