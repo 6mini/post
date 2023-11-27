@@ -164,7 +164,7 @@ Deployment complete! https://q1w2e3r4t5y6.execute-api.ap-northeast-2.amazonaws.c
 아주 간단하고 빠르게 웹 애플리케이션을 배포했다. 그것도 클라우드에 서버리스로 말이다. 비용 효율적이며 인프라 관리 걱정 없이 개발에 집중할 수 있게 되었다. 근데 아무래도 URL을 보면 굉장히 못생겼다. 이대로 배포했다간 사용자들이 접속하기가 굉장히 불편할 것이다. 다음 포스팅에서는 이를 개선하기 위해 자파를 통해 배포한 웹 애플리케이션에 사용자 정의 도메인을 연결하는 방법을 소개한다.
 
 ## 4.1 관련 아티클
-- 다음 아티클: [Zappa를 통한 Flask 서버리스 배포(2): 사용자 정의 도메인 연결](https://yoonminlee.com/zappa-flask-custom-domain)
+- 다음 아티클: [Zappa를 통한 Flask 서버리스 배포(2): 사용자 정의 도메인 연결](/zappa-flask-custom-domain)
 
 ## 4.2 참고
 
