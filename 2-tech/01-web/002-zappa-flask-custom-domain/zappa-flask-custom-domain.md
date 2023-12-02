@@ -1,8 +1,8 @@
 ---
 title: 'Zappa를 통한 Flask 서버리스 배포(2): Route 53 또는 가비아 사용자 정의 도메인 연결'
-description: 'Zappa를 사용하여 배포된 Flask 기반의 서버리스 애플리케이션에 AWS의 Route 53 또는 가비아를 통해 사용자 정의 도메인을 설정하는 과정을 단계별로 안내한다.'
+description: 'Zappa를 사용하여 배포된 Flask 기반의 서버리스 애플리케이션에 AWS의 Route 53 또는 가비아를 통해 사용자 정의 도메인을 설정하는 과정을 안내한다.'
 date: '2023-11-24'
-tags: [Zappa, Flask, AWS, Serverless, Route 53, 가비아, 사용자 정의 도메인, 클라우드 컴퓨팅, 웹 개발]
+tags: [Zappa, Flask, AWS, Lambda, Serverless, 클라우드 컴퓨팅, 웹 개발, Route 53, 가비아, 사용자 정의 도메인]
 ---
 # 1. 서론
 
