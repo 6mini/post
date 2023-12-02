@@ -2,7 +2,7 @@
 title: 'Zappa를 통한 Flask 서버리스 배포(3): 스테이지 관리'
 description: 'Zappa와 Flask를 사용한 서버리스 애플리케이션 개발의 중요한 부분인 스테이지 관리에 대해 알아본다. 개발, 테스트, 스테이징, 프로덕션 환경을 효율적으로 관리하는 방법과 자파를 이용한 구현 과정에 대해 자세히 안내한다.'
 date: '2023-12-02'
-tags: [Zappa, Flask, AWS, Lambda, Serverless, 클라우드 컴퓨팅, 웹 개발]
+tags: [Zappa, Flask, AWS, Lambda, Serverless, 클라우드 컴퓨팅, 웹 개발, 스테이지]
 ---
 # 1. 서론
 
