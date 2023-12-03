@@ -6,7 +6,7 @@ tags: [Zappa, Flask, AWS, Lambda, Serverless, 클라우드 컴퓨팅, 웹 개발
 ---
 # 1. 서론
 
-![Alt text](1.png)
+![Flask Zappa 일러트스레이션](https://yoonminlee-blog-image.s3.ap-northeast-2.amazonaws.com/zappa-flask-stage-management-1.png)
 
 지난 아티클에서 [자파(Zappa)를 활용하여 플라스크(Flask) 기반의 서버리스 애플리케이션을 AWS 람다(Lambda)에 배포](https://yoonminlee.com/zappa-flask-serverless-lambda)하는 과정을 살펴보았고, [사용자 정의 도메인 연결](https://yoonminlee.com/zappa-flask-custom-domain)까지 마쳤다. 이번 포스팅에서는 프로젝트를 진행하며 마주칠 수 있는 `dev`, `prod` 등의 스테이지에 대해 알아볼 예정이다. 필자가 궁금했기에 스터디 후 아카이빙 차원에서 작성하는 아티클이다. 실제 프로덕션 환경에서 스테이지가 어떻게 활용되는지, 현재 블로그 프로젝트에서 이 개념을 어떻게 적용할 수 있을지, 그리고 자파를 이용하여 이를 어떻게 구현할 수 있는지에 대해 다룰 것이다.
 
