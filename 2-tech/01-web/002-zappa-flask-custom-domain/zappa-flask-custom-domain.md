@@ -259,7 +259,7 @@ Certificate updated!
 - Zappa를 통한 Flask 서버리스 배포
     1. [Zappa를 통한 Flask 서버리스 배포(1): AWS Lambda에 배포](/zappa-flask-serverless-lambda)
     2. [Zappa를 통한 Flask 서버리스 배포(2): 사용자 정의 도메인 연결](/zappa-flask-custom-domain)
-    3. [Zappa를 통한 Flask 서버리스 배포(3): 스테이지 관리](/zappa-flask-stage-management)
+    3. [Zappa를 통한 Flask 서버리스 배포(3): 스테이지 & 로그 레벨 관리](/zappa-flask-stage-log-level-management)
 
 ## 6.2 참고
 
