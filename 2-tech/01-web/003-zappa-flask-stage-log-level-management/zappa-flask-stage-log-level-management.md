@@ -1,12 +1,12 @@
 ---
 title: 'Zappa를 통한 Flask 서버리스 배포(3): 스테이지 & 로그 레벨 관리'
 description: "Zappa와 Flask로 서버리스 애플리케이션을 개발하면서 스테이지 및 로그 레벨 관리의 중요성을 알아본다. 이 글은 개발, 테스트, 스테이징, 프로덕션 환경을 효율적으로 관리하는 방법과 로그 레벨을 설정하여 비용을 최적화하는 방법에 대한 가이드를 제공한다."
-date: '2023-12-02'
+date: '2023-12-04'
 tags: [Zappa, Flask, AWS, Lambda, Serverless, 클라우드 컴퓨팅, 웹 개발, 스테이지, 로그 레벨]
 ---
 # 1. 서론
 
-![Flask Zappa 일러트스레이션](https://yoonminlee-blog-image.s3.ap-northeast-2.amazonaws.com/zappa-flask-stage-management-1.png)
+![Flask Zappa 일러트스레이션](https://yoonminlee-blog-image.s3.ap-northeast-2.amazonaws.com/zappa-flask-stage-log-level-management-1.png)
 
 지난 아티클에서 [자파(Zappa)를 활용하여 플라스크(Flask) 기반의 서버리스 애플리케이션을 AWS 람다(Lambda)에 배포](https://yoonminlee.com/zappa-flask-serverless-lambda)하는 과정을 살펴보았고, [사용자 정의 도메인 연결](https://yoonminlee.com/zappa-flask-custom-domain)까지 마쳤다. 이번 포스팅에서는 프로젝트를 진행하며 마주칠 수 있는 `dev`, `prod` 등의 다양한 단계, 즉 '스테이지'에 대해 알아볼 예정이다. 필자가 궁금했기에 스터디 후 아카이빙 차원에서 작성하는 아티클이다. 실제 프로덕션 환경에서 스테이지가 어떻게 활용되는지, 현재 블로그 프로젝트에서 이 개념을 어떻게 적용할 수 있을지, 그리고 자파를 이용하여 이를 어떻게 구현할 수 있는지에 대해 다룰 것이다. 더 나아가 로그 레벨을 적절히 설정하여 운영 비용을 효과적으로 제어하는 방법을 살펴볼 것이다. 로그 레벨 관리는 서버리스 아키텍처에서 애플리케이션의 성능 모니터링, 오류 진단, 비용 최적화에 있어 중요한 역할을 한다.
 
