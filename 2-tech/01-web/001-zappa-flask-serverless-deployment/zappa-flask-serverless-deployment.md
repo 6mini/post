@@ -167,8 +167,9 @@ Deployment complete! https://q1w2e3r4t5y6.execute-api.ap-northeast-2.amazonaws.c
 
 - **자파(Zappa) 튜토리얼**
     1. [자파(Zappa) 튜토리얼(1): 플라스크(Flask) 서버리스(Serverless) 배포](/zappa-flask-serverless-deployment)
-    2. [자파(Zappa) 튜토리얼(2): 사용자 정의(Custom) 도메인 연결(AWS Route53 & 가비아(Gabia))](/zappa-custom-domain-route53-gabia)
+    2. [자파(Zappa) 튜토리얼(2): 사용자 정의 도메인(Custom Domain) 연결(AWS Route53 & 가비아(Gabia))](/zappa-custom-domain-route53-gabia)
     3. [자파(Zappa) 튜토리얼(3): 스테이지(Stage) & 로그 레벨(Log level) 관리](/zappa-stage-log-level-management)
+    4. [자파(Zappa) 튜토리얼(4): 배포 해제 및 사용자 정의 도메인(Custom Domain) 제거](/zappa-undeploy-custom-domain-removal)
 
 ## 4.2 참고
 
