@@ -1,8 +1,8 @@
 ---
 title: '자파(Zappa) 튜토리얼(4): 배포 해제 및 사용자 정의 도메인(Custom Domain) 제거'
-description: 자파(Zappa)를 사용하여 배포된 애플리케이션의 사용자 지정 도메인을 AWS에서 안전하게 제거하는 방법을 단계별로 안내한다. 배포 해제(Undeploy) 후에도 남아있는 도메인을 제거하여 깔끔하게 프로젝트 종료 및 리전 변경 시 재배포 전의 클린업 방법을 배운다."
+description: '자파(Zappa)를 사용하여 배포된 애플리케이션의 사용자 지정 도메인을 AWS에서 안전하게 제거하는 방법을 단계별로 안내한다. 배포 해제(Undeploy) 후에도 남아있는 도메인을 제거하여 깔끔하게 프로젝트 종료 및 리전 변경 시 재배포 전의 클린업 방법을 배운다.'
 date: '2023-12-05'
-tags: [자파, 서버리스, 클라우드 컴퓨팅, 웹 개발, 사용자 지정 도메인 제거, 배포 해제, 클라우드프론트, Zappa, AWS, API Gateway, Serverless, Cloud Computing, Custom Domain, Cloudfront, Undeploy, ACM]
+tags: [자파(Zappa), AWS, 서버리스(Serverless), 클라우드(Cloud), 웹 개발(Web Development), 사용자 정의 도메인(Custom Domain), 클라우드프론트(Cloudfront), ACM]
 ---
 # 1. 서론
 
