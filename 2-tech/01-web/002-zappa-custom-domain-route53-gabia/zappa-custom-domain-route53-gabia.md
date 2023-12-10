@@ -2,7 +2,7 @@
 title: '자파(Zappa) 튜토리얼(2): 사용자 정의 도메인(Custom Domain) 연결(Feat. AWS Route53 & 가비아(Gabia))'
 description: '자파(Zappa)를 사용하여 배포된 서버리스 애플리케이션에 AWS의 Route 53 또는 가비아(Gabia)를 통해 사용자 정의 도메인(Custom Domain)을 설정하는 과정을 안내한다.'
 date: '2023-11-24'
-tags: [자파, 플라스크, 람다, 서버리스, 클라우드 컴퓨팅, 웹 개발, 사용자 정의 도메인, 가비아, Zappa, Flask, AWS, Lambda, Serverless, Cloud Computing, Route 53, Custom Domain]
+tags: [자파(Zappa), AWS, 서버리스(Serverless), 클라우드(Cloud), 웹 개발(Web Development), 사용자 정의 도메인(Custom Domain), Route53, 가비아(Gabia)]
 ---
 # 1. 서론
 
