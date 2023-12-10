@@ -2,7 +2,8 @@
 title: '자파(Zappa) 튜토리얼(3): 스테이지(Stage) & 로그 레벨(Log level) 관리'
 description: "자파(Zappa)와 플라스크(Flask)로 서버리스 애플리케이션을 개발하면서 스테이지 및 로그 레벨 관리의 중요성을 알아본다. 개발, 테스트, 스테이징, 프로덕션 환경을 효율적으로 관리하는 방법과 로그 레벨을 설정하여 비용을 최적화하는 방법에 대한 가이드를 제공한다."
 date: '2023-12-04'
-tags: [자파, 람다, 서버리스, 클라우드 컴퓨팅, 웹 개발, 스테이지, 로그 레벨, Zappa, AWS, Lambda, Serverless, Cloud Computing, Stage, Log level]
+tags: [자파(Zappa), AWS, 서버리스(Serverless), 클라우드(Cloud), 웹 개발(Web Development), 스테이지(Stage), 로그 레벨(Log Level)]
+
 ---
 # 1. 서론
 
