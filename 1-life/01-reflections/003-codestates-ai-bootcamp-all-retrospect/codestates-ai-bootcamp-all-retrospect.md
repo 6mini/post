@@ -113,7 +113,7 @@ tags: [회고, 코드스테이츠 AI 부트캠프]
 
 시작은 밤샌 뒤 아침이었지만, 지금은 자기 전 심야다ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 오늘 캐글 그랜드마스터의 강연을 들었는데 또 가슴이 두근거렸다...! 지금은 커리큘럼이 바빠서 힘들겠지만, 조금이라도 여유날 때마다 연습해야겠다.
 
-![제주 본가에서 공부할 때 좋은 점... 간식이 전복회🥰](https://user-images.githubusercontent.com/79494088/132704359-aa7b83b8-ec68-47d9-9297-701d5f30ff7e.JPG)
+![제주 본가에서 공부할 때 좋은 점... 간식이 전복회🥰](https://yoonminlee-blog-image.s3.ap-northeast-2.amazonaws.com/codestates-ai-bootcamp-all-retrospect-1.png)
 
 # 3개월 차
 
@@ -162,7 +162,7 @@ Flask를 통한 HTTP API 까지 통달하려면 많은 시행착오가 있어야
 아직 딥러닝 파트가 남았지만, 서서히 내가 어떤 쪽으로 뿌리를 내려야할 지 갈피가 잡히는 것 같다. **어쩌면 Data Engineering은 내가 좋아하면서도 잘하는 두마리 토끼를 잡을 수 도 있지 않을까 하는 생각이 컸다.** 
 프로젝트를 진행하며 Pipeline을 구축하는 과정이 즐거웠는데, 머신러닝에 얽메이다보니 많은 것을 적용하지 못했다고 생각한다. 내부에 사용된 논리나 모델은 사실 100% 마음에 들지 않지만, 그래도 처음부터 모든 것을 설계하고 완성해놓고 보니 뿌듯한 마음은 200%이다. 프로젝트를 만드는 일주일 동안 정말 열심히 했다고 나 스스로도 느낀다. 잠자고 밥먹는 시간을 제외하면 모든 시간을 컴퓨터 앞에서 보냈으니... 그래서 힘들긴 했는데, 새로운 Pipeline 프로젝트를 준비중이다. 코드스테이츠에서 요구하는 형식에서 조금 벗어나 자유롭게 해보고 싶은 것들을 적용해보고 싶어서 진행중인데, 조금 쉬고 싶었지만 그래도... 달려야지뭐ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ
 
-![돈 벌기 참 힘들다...](https://jjalbang.today/files/jjalbox/2016/08/20160820_57b83ac0aa067.jpg)
+![돈 벌기 참 힘들다...](https://yoonminlee-blog-image.s3.ap-northeast-2.amazonaws.com/codestates-ai-bootcamp-all-retrospect-2.png)
 
 # 4개월 차
 
@@ -170,7 +170,7 @@ Flask를 통한 HTTP API 까지 통달하려면 많은 시행착오가 있어야
 
 누가 스챌 전날 술먹었냐?
 
-![저요...](https://user-images.githubusercontent.com/79494088/138445024-b1137855-1112-497c-84d7-adb0a0e502f8.png)
+![저요...](https://yoonminlee-blog-image.s3.ap-northeast-2.amazonaws.com/codestates-ai-bootcamp-all-retrospect-3.png)
 
 반성... 숙취에 쩔었지만 우여곡절 잘 끝냈다. 너무 힘들어서 회고도 대충 적어버림.
 
@@ -186,7 +186,7 @@ Flask를 통한 HTTP API 까지 통달하려면 많은 시행착오가 있어야
 
 오늘 스챌 끝났으니까... 오늘만 좀 놀아야징ㅎ
 
-![내 인생 술로 연명하고 있어](https://user-images.githubusercontent.com/79494088/138584131-608981d5-e96b-4fc2-a356-63a5e12940b8.png)
+![내 인생 술로 연명하고 있어](https://yoonminlee-blog-image.s3.ap-northeast-2.amazonaws.com/codestates-ai-bootcamp-all-retrospect-4.png)
 
 ## 14주 차(Natural Language Processing): 속상
 
