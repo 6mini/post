@@ -7,7 +7,7 @@ tags: [데이터 사이언스(Data Science), 피쳐 엔지니어링(Feature Engi
 
 # 1. 피처 엔지니어링(Feature Engineering)이란?
 
-![피처 엔지니어링(Feature Engineering) 예시](https://yoonminlee-blog-image.s3.ap-northeast-2.amazonaws.com/feature-engineering-1.png)
+![피처 엔지니어링(Feature Engineering) 예시](https://yoonminlee-blog-image.s3.ap-northeast-2.amazonaws.com/feature-engineering-2.png)
 
 피처 엔지니어링(Feature Engineering)은 기존 데이터셋에 있는 피처를 재조합하거나 변형하여 새로운, 의미 있는 피처를 만드는 과정이다. 이 과정은 도메인 지식과 창의성을 바탕으로 수행되며, 기존 데이터에서 숨겨진 패턴이나 정보를 발굴하는 데 중요하다. 예를 들어, 개인의 체중과 키 데이터에서 비만도를 나타내는 BMI 지수를 새로운 피처로 만들 수 있다.
 
