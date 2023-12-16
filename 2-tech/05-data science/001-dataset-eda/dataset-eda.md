@@ -1,8 +1,8 @@
 ---
 title: '데이터셋(Dataset)과 EDA(탐색적 데이터 분석)란?'
 description: '데이터셋(Dataset)에 대해 간단히 알아보고, 분석을 하기 위해 EDA(Exploratory Data Analysis, 탐색적 데이터 분석)의 개념과 데이터 프리프로세싱(Pre-processing) 과정에 대해 안내한다.'
-date: '2021-07-08'
-tags: [데이터셋(Dataset), EDA, 데이터 프리프로세싱(Pre-processing)]
+date: '2023-12-12'
+tags: [데이터 사이언스(Data Science), 데이터셋(Dataset), EDA, 데이터 프리프로세싱(Pre-processing)]
 ---
 
 # 1. 데이터셋(Dataset)이란?
