@@ -35,7 +35,7 @@ tags: [회고]
 
 위 이미지가 초반에 구성한 파이프라인이다. 복잡하고 원시적이다. 지금 보면 여러모로 마음에 들지 않지만, 다행히 첫 적재와 동시에 쌓인 데이터를 하나도 헛되지 않게 사용하고 있다(물론 굉장히 많은 변환 과정이 필요하지만). 트렌드 분석이라는 니즈를 충족시킬 수 있는 결과물을 만들기 위해, 강한 집착으로 어려움이 발생해도 어떻게든 해결했다. 문제 해결에 매달린 경험이 좋은 씨앗으로 남은 것 같다. 완벽하진 않지만, 부딪혀 보았기에 어떤 곳에 비효율이 존재하는지 알게 되고, 나중에 더 나은 방법론과 파이프라인을 고민하는 데 도움이 됐다.
 
-![대시보드 제작 전 여러 가지 분석 방법론을 적용해 본 노션 기록png](https://yoonminlee-blog-image.s3.ap-northeast-2.amazonaws.com/2022-retrospect-5.png)
+![대시보드 제작 전 여러 가지 분석 방법론을 적용해 본 노션 기록](https://yoonminlee-blog-image.s3.ap-northeast-2.amazonaws.com/2022-retrospect-5.png)
 
 단순히 데이터를 모으는 것만으로는 충분하지 않았다. 중요한 건 이 데이터를 통해 인사이트를 도출하고, 이를 비즈니스에 적용하는 것이었다. 좋은 데이터가 필요했고, 잘 모았다면 잘 보는 것이 중요했다. 데이터 분석에 자신은 없었지만, 오랜 시간 뜯어보며 느낀점은 '생각보다 할 만한데?' 였다. 가지고 있는 데이터를 통해 볼 수 있는 것들이 많았고, 가능한 한 정확한 데이터를 제공하기 위해 많은 시간을 할애했다.
 
@@ -86,7 +86,7 @@ tags: [회고]
 
 유튜브를 통한 인플루언서 마케팅은 현재 중요한 전략 중 하나지만, 단점 중 하나는 성과를 제대로 측정하기 어렵다는 것이다. 이 문제를 바탕으로, 유튜브 PPL(Product Placement) 영상의 성과를 보다 정확하게 파악하고자 하는 프로젝트를 진행했다. 시딩 영상이 업로드된 시점부터 조회수나 좋아요 수, 링크 클릭 수 등의 지표를 시간 혹은 날짜별로 흐름을 파악하는 것이 목적이었다. 이를 통해 마케팅팀에 심도 있는 인사이트를 제공하는 것이 목표였다.
 
-![인플루언서 마케팅 유튜브 PPL 영상 성과 측정 대시보드 일부png](https://yoonminlee-blog-image.s3.ap-northeast-2.amazonaws.com/2022-retrospect-10.png)
+![인플루언서 마케팅 유튜브 PPL 영상 성과 측정 대시보드 일부](https://yoonminlee-blog-image.s3.ap-northeast-2.amazonaws.com/2022-retrospect-10.png)
 
 이를 구현하기 위해 처음으로 유튜브 API를 활용하여 데이터를 수집했다. 이렇게 쉽게 데이터를 가져갈 수 있도록 굳이 세팅을 해두는 큰 회사들에 대한 신기함을 느꼈던 것 같다. 중요한 건 할당량이었기에, 할당량을 잘 컨트롤하면서 안정적으로 수집하는 것이 중요했다. 이 과정에서 재시도 절차를 추가하거나, 여러 가지의 프로젝트 ID를 부여받아 교체하여 개발했기 때문에 안정적으로 수집할 수 있었다.
 
@@ -127,15 +127,15 @@ tags: [회고]
 
 회사의 핵심 가치 중 '데이터 집착'이 있다. 전체적인 데이터 집착 분위기를 조성하고자, 사내 슬랙과 노션에서 발생하는 행동 데이터를 분석하는 프로젝트를 기획하고 실행했다. 슬랙과 노션에서 발생한 데이터를 수집했다. 직원들의 커뮤니케이션 패턴, 업무 일지 내용이 포함됐다. 다양한 분석 기법을 사용하여 처리하였고, 이를 통해서 커뮤니케이션 패턴, 효율성, 개선점을 찾아내고자 했다.
 
-![Slack & Notion 데이터 분석 토이 프로젝트 발표 PT png 일부](https://yoonminlee-blog-image.s3.ap-northeast-2.amazonaws.com/2022-retrospect-14.png)
+![Slack & Notion 데이터 분석 토이 프로젝트 발표 PT 일부](https://yoonminlee-blog-image.s3.ap-northeast-2.amazonaws.com/2022-retrospect-14.png)
 
 분석한 데이터는 리포트 형식으로 작성하여 발표하였다. 사실 큰 인사이트는 도출하지 못했지만, 쌓인 데이터를 어떻게든 효과적으로 활용할 가능성을 볼 수 있었다.
 
-![Slack & Notion 데이터 분석 토이 프로젝트 발표 PT png 일부 2](https://yoonminlee-blog-image.s3.ap-northeast-2.amazonaws.com/2022-retrospect-15.png)
+![Slack & Notion 데이터 분석 토이 프로젝트 발표 PT 일부 2](https://yoonminlee-blog-image.s3.ap-northeast-2.amazonaws.com/2022-retrospect-15.png)
 
 연말에 진행한 발표였기 때문에 약간의 재미 요소를 섞기도 하고, 시상식처럼 진행하여 상품을 전달하기도 했다. 사원분들도 흥미롭게 경청해 주셔서 뿌듯한 발표였다.
 
-![Slack & Notion 데이터 분석 토이 프로젝트 발표 PT png 일부 3](https://yoonminlee-blog-image.s3.ap-northeast-2.amazonaws.com/2022-retrospect-16.png)
+![Slack & Notion 데이터 분석 토이 프로젝트 발표 PT 일부 3](https://yoonminlee-blog-image.s3.ap-northeast-2.amazonaws.com/2022-retrospect-16.png)
 
 ## 1.3 공부
 
