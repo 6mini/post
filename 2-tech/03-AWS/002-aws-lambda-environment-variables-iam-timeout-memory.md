@@ -1,7 +1,7 @@
 ---
 title: 'AWS 람다(Lambda) 튜토리얼(2): 환경 변수 설정, IAM 역할에 권한 추가, 타임아웃 및 메모리 설정'
 description: 'AWS Lambda를 사용하여 데이터를 크롤링하고 AWS S3에 데이터를 저장하는 예제를 토대로, 환경 변수 설정, IAM 역할에 권한 추가, 타임아웃 및 메모리 설정을 통해 Lambda 함수의 성능과 보안을 최적화하는 방법을 상세히 다룬다.'
-date: '2024-01-17'
+date: '2024-01-16'
 tags: [AWS, 람다(Lambda), 서버리스(Serverless), 클라우드(Cloud), 튜토리얼(Tutorial), IAM]
 ---
 # 1. 서론
@@ -202,3 +202,4 @@ AWS Lambda를 사용하여 데이터 크롤링 프로그램을 구현하는 데 
     1. [함수 생성 및 테스트, 로그 및 모니터링](/aws-lambda-function-creation-testing-log-monitoring)
     2. [환경 변수 설정, IAM 역할에 권한 추가, 타임아웃 및 메모리 설정](/aws-lambda-environment-variables-iam-timeout-memory)
     3. [계층(Layer) 추가 및 판다스(Pandas) 사용 방법](/aws-lambda-layer-pandas)
+    4. [이벤트 브릿지(EventBridge)를 통한 스케줄링](/aws-lambda-eventbridge-scheduling)

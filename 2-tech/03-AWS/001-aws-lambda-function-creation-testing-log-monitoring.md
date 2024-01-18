@@ -1,7 +1,7 @@
 ---
 title: 'AWS 람다(Lambda) 튜토리얼(1): 함수 생성 및 테스트, 로그 및 모니터링'
 description: 'AWS Lambda를 이용한 서버리스 컴퓨팅 기초, Lambda 함수 생성 및 테스트, 로그 및 모니터링 방법을 다룬다. 데이터 스크래핑을 위한 Lambda 활용법과 EC2 대신 Lambda를 선택하는 이유, 그리고 Lambda의 일반적인 사용 사례까지 탐구한다. 서버리스 아키텍처와 클라우드 컴퓨팅의 효율성을 극대화하는 방법을 배운다.'
-date: '2024-01-17'
+date: '2024-01-15'
 tags: [AWS, 람다(Lambda), 서버리스(Serverless), 클라우드(Cloud), 튜토리얼(Tutorial)]
 ---
 # 1. 서론
@@ -118,3 +118,4 @@ Lambda 함수를 생성하고, 간단한 "Hello from Lambda" 응답을 통해 �
     1. [함수 생성 및 테스트, 로그 및 모니터링](/aws-lambda-function-creation-testing-log-monitoring)
     2. [환경 변수 설정, IAM 역할에 권한 추가, 타임아웃 및 메모리 설정](/aws-lambda-environment-variables-iam-timeout-memory)
     3. [계층(Layer) 추가 및 판다스(Pandas) 사용 방법](/aws-lambda-layer-pandas)
+    4. [이벤트 브릿지(EventBridge)를 통한 스케줄링](/aws-lambda-eventbridge-scheduling)

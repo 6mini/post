@@ -161,3 +161,4 @@ AWS Lambda의 계층(Layer) 기능을 활용하여 판다스(Pandas)를 비롯�
     1. [함수 생성 및 테스트, 로그 및 모니터링](/aws-lambda-function-creation-testing-log-monitoring)
     2. [환경 변수 설정, IAM 역할에 권한 추가, 타임아웃 및 메모리 설정](/aws-lambda-environment-variables-iam-timeout-memory)
     3. [계층(Layer) 추가 및 판다스(Pandas) 사용 방법](/aws-lambda-layer-pandas)
+    4. [이벤트 브릿지(EventBridge)를 통한 스케줄링](/aws-lambda-eventbridge-scheduling)
