@@ -34,6 +34,7 @@ AWS Lambda는 그 유연성과 확장성 덕분에 다양한 활용 사례에 �
 4. **IoT 백엔드**: Lambda는 IoT 디바이스에서 발생하는 이벤트에 반응하여 데이터를 처리하고 응답하는 데 사용될 수 있다.
 5. **기계 학습 모델 배포**: 학습된 기계 학습 모델을 Lambda에 배포하여 실시간 예측을 제공할 수 있다.
 
+<!--ad-->
 
 # 3. Lambda 함수 생성
 
@@ -81,6 +82,8 @@ Lambda 콘솔에서 "테스트(Test)" 버튼을 클릭한다.
 ![실행 결과 확인](https://yoonminlee-blog-image.s3.ap-northeast-2.amazonaws.com/aws-lambda-function-creation-testing-log-monitoring-6.png)
 
 실행 결과를 확인한다. 성공적으로 실행되었다면, 'Hello from Lambda!' 메시지가 반환된다.
+
+<!--ad-->
 
 # 5. 로그 및 모니터링
 
