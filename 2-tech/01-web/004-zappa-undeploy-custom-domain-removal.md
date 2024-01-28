@@ -84,6 +84,8 @@ AWS 콘솔에서 [AWS Certificate Manager](https://us-east-1.console.aws.amazon.
     2. [사용자 정의 도메인(Custom Domain) 연결(Feat. AWS Route53 & 가비아(Gabia))](/zappa-custom-domain-route53-gabia)
     3. [스테이지(Stage) & 로그 레벨(Log level) 관리](/zappa-stage-log-level-management)
     4. [배포 해제 및 사용자 정의 도메인(Custom Domain) 제거](/zappa-undeploy-custom-domain-removal)
+- [웹 배포 후 검색 노출(SEO) 세팅 완벽 가이드 (w/ 플라스크(Flask))](/web-deployment-seo-guide)
+- [파비콘 만들기 및 적용 완벽 튜토리얼: Adobe Color, favicon.io, RealFaviconGenerator 사이트 활용](/favicon-creation-tutorial)
 
 ## 5.2 참고
 
