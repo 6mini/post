@@ -13,7 +13,7 @@ tags: [자파(Zappa), AWS, 서버리스(Serverless), 클라우드(Cloud), 웹 �
 
 현재 자파 배포로 자동 생성된 API 게이트웨이(Gateway) 엔드포인트를 통해 애플리케이션에 접속할 수 있다. 그러나 자파가 제공하는 URL은 보기 흉하다. 이를테면:
 
-```
+```txt
 https://q1w2e3r4t5y6.execute-api.ap-northeast-2.amazonaws.com/dev/
         ^^^^^^^^^^^^^^^^^^^^^^^^                              ^^^
           자동 생성된 API Gateway                             Zappa 환경
@@ -21,7 +21,7 @@ https://q1w2e3r4t5y6.execute-api.ap-northeast-2.amazonaws.com/dev/
 
 이상적인 대부분의 URL은 다음과 같다:
 
-```
+```txt
 https://yoonminlee.com/
 ```
 
