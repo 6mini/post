@@ -59,6 +59,7 @@ tags: ['SEO(검색 엔진 최적화)', '메타 태그(Meta Tag)', 'OG(오픈 그
 - `og:title`: 공유될 때 표시되는 제목이다.
 - `og:description`: 공유될 때 사용되는 간략한 설명이다.
 - `og:image`: 공유될 때 표시되는 이미지 URL이다.
+    - 가로 세로 비율은 1.91:1이어야 하며, 이미지는 8MB 이하여야 한다. 이미지 크기는 1200px *630px이어야 한다.
 - `og:url`: 페이지의 정식 URL이다.
 - `og:type`: 페이지의 유형(예: website, article)이다.
 - `og:site_name`: 웹사이트의 이름을 정의한다.
