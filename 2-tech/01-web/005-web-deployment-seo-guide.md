@@ -2,7 +2,7 @@
 title: '웹 배포 후 검색 노출(SEO) 세팅 완벽 가이드 (w/ 플라스크(Flask))'
 description: "웹 애플리케이션 개발 후 검색 엔진 최적화(SEO)를 통해 온라인 가시성을 높이는 방법을 소개한다. 메타 태그 최적화, Google Search Console 및 Naver Search Advisor 설정, sitemap.xml 생성 및 자동화, 그리고 robots.txt 파일 적용에 대한 실용적인 안내를 제공한다."
 date: '2024-01-27'
-tags: ['SEO(검색 엔진 최적화)', '메타 태그(Meta Tag)', 'OG(오픈 그래프)', '구글 서치 콘솔(Google Search Console)', '네이버 서치 어드바이저(Naver Search Advisor)', '사이트맵(sitemap.xml)', 'robots.txt', 플라스크(Flask)]
+tags: [SEO(검색 엔진 최적화), 메타 태그(Meta Tag), OG(오픈 그래프), 구글 서치 콘솔(Google Search Console), 네이버 서치 어드바이저(Naver Search Advisor), 사이트맵(sitemap.xml), robots.txt, 플라스크(Flask), 웹 개발(Web Development)]
 ---
 # 1. 서론
 
@@ -433,6 +433,8 @@ def robots_txt():
     3. [스테이지(Stage) & 로그 레벨(Log level) 관리](/zappa-stage-log-level-management)
     4. [배포 해제 및 사용자 정의 도메인(Custom Domain) 제거](/zappa-undeploy-custom-domain-removal)
 - [파비콘 만들기 및 적용 완벽 튜토리얼: Adobe Color, favicon.io, RealFaviconGenerator 사이트 활용](/favicon-creation-tutorial)
+- [웹 배포 후 검색 노출(SEO) 세팅 완벽 가이드 (w/ 플라스크(Flask))](/web-deployment-seo-guide)
+- [웹 배포 후 트래픽 분석 및 수익화를 위한 구글 애널리틱스(Google Analytics, GA4)와 애드센스(AdSense) 초기 세팅 및 연동 완벽 가이드](/google-analytics-adsense-setup-guide)
 
 ## 6.2 참고
 
