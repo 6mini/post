@@ -2,7 +2,7 @@
 title: '웹 배포 후 트래픽 분석 및 수익화를 위한 구글 애널리틱스(Google Analytics, GA4)와 애드센스(AdSense) 초기 세팅 및 연동 완벽 가이드'
 description: "웹사이트 개발 후 트래픽 분석 및 수익화를 위한 구글 애널리틱스(GA4)와 구글 애드센스 설정 및 연동 방법을 소개한다. 웹사이트의 트래픽 추적, 사용자 행동 분석, 수익화 전략에 대한 실용적인 가이드를 제공한다."
 date: '2024-01-30'
-tags: [구글 애널리틱스(Google Analytics, GA4), 구글 애드센스(Google AdSense), 웹 개발(Web Development)]
+tags: ['구글 애널리틱스(Google Analytics, GA4)', 구글 애드센스(Google AdSense), 웹 개발(Web Development)]
 ---
 # 1. 서론
 
