@@ -66,31 +66,38 @@ print(df)
 - [GitHub Gist: 6mini/mysql_to_pandas.py](https://gist.github.com/6mini/10eca0855b344270c4e3aeb25a23519c)
 
 ```py
-# pip install pandas sqlalchemy pymysql
-
-# 필요한 라이브러리를 호출
 import pandas as pd
 from sqlalchemy import create_engine
 
-# RDS MySQL 데이터베이스 연결 설정
-# 주의: 실제 코드에서는 보안을 위해 환경 변수나 다른 방법으로 자격 증명을 관리해야 한다.
-host = "your-rds-hostname"  # RDS 호스트 주소
-port = 3306  # MySQL 포트 (기본값: 3306)
-username = "your-username"  # 데이터베이스 사용자 이름
-password = "your-password"  # 데이터베이스 비밀번호
-database = "your-database"  # 데이터베이스 이름
+def query_to_dataframe(host, port, username, password, database, query):
+    """
+    주어진 SQL 쿼리를 실행하고 결과를 pandas DataFrame으로 반환한다.
+    매개변수:
+    host (str): 데이터베이스 서버 호스트 주소
+    port (int): 데이터베이스 서버 포트 번호
+    username (str): 데이터베이스 사용자 이름
+    password (str): 데이터베이스 사용자 비밀번호
+    database (str): 데이터베이스 이름
+    query (str): 실행할 SQL 쿼리
+    반환값:
+    pandas.DataFrame: 쿼리 결과를 담은 DataFrame
+    """
+    # SQLAlchemy 엔진을 사용하여 데이터베이스에 연결
+    engine = create_engine(f"mysql+pymysql://{username}:{password}@{host}:{port}/{database}")
 
-# SQLAlchemy 엔진을 사용하여 데이터베이스에 연결
-engine = create_engine(f"mysql+pymysql://{username}:{password}@{host}:{port}/{database}")
+    # SQL 쿼리 실행 및 결과 반환
+    df = pd.read_sql(query, engine)
+    return df
 
-# SQL 쿼리를 정의
-# 예: 모든 데이터를 'your_table'에서 가져오기
+# 사용 예시
+host = "your-rds-hostname"
+port = 3306
+username = "your-username"
+password = "your-password"
+database = "your-database"
 query = "SELECT * FROM your_table"
 
-# SQL 쿼리를 실행하고 결과를 Pandas DataFrame으로 가져온다.
-df = pd.read_sql(query, engine)
-
-# DataFrame 출력
+df = query_to_dataframe(host, port, username, password, database, query)
 print(df)
 ```
 
