@@ -2,7 +2,7 @@
 title: '한글 URL이 포함된 사이트맵(sitemap.xml) 작성 가이드'
 description: "한글 URL을 포함하는 사이트맵(sitemap.xml) 작성 방법에 대한 가이드이다. 퍼센트 인코딩의 중요성, 표준 준수 방법, 검색 엔진 최적화(SEO) 팁을 포함하여, 웹 개발자와 웹사이트 소유주가 글로벌 및 로컬 검색 엔진에서의 가시성을 높일 수 있도록 도와준다."
 date: '2024-02-11'
-tags: ['한글 URL', 사이트맵(sitemap.xml), 퍼센트 인코딩(Percent Encoding), SEO(검색 엔진 최적화), 플라스크(Flask)]
+tags: ['한글 URL', 사이트맵(sitemap.xml), 퍼센트 인코딩(Percent Encoding), SEO(검색 엔진 최적화), 플라스크(Flask), 웹 개발(Web Development)]
 ---
 # 1. 서론
 
