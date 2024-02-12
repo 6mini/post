@@ -173,6 +173,7 @@ Deployment complete! https://q1w2e3r4t5y6.execute-api.ap-northeast-2.amazonaws.c
 - [파비콘 만들기 및 적용 완벽 튜토리얼: Adobe Color, favicon.io, RealFaviconGenerator 사이트 활용](/favicon-creation-tutorial)
 - [웹 배포 후 검색 노출(SEO) 세팅 완벽 가이드 (w/ 플라스크(Flask))](/web-deployment-seo-guide)
 - [웹 배포 후 트래픽 분석 및 수익화를 위한 구글 애널리틱스(Google Analytics, GA4)와 애드센스(AdSense) 초기 세팅 및 연동 완벽 가이드](/google-analytics-adsense-setup-guide)
+- [구글 서치 콘솔(Google Search Console)과 구글 애널리틱스(Google Analytics, GA4) 연결](/connect-google-search-console-analytics)
 
 ## 4.2 참고
 

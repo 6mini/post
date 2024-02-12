@@ -75,3 +75,59 @@ tags: ['구글 애널리틱스(Google Analytics, GA4)', 구글 서치 콘솔(Goo
 ![연결 생성](https://yoonminlee-blog-image.s3.ap-northeast-2.amazonaws.com/connect-google-search-console-analytics-9.png)
 
 성공적으로 연결이 생성된다.
+
+# 3. 구글 서치 콘솔 라이브러리 게시
+
+구글 애널리틱스 보고서에서 서치 콘솔 데이터를 확인하기 위해 라이브러리를 추가한다.
+
+![Alt text](https://yoonminlee-blog-image.s3.ap-northeast-2.amazonaws.com/connect-google-search-console-analytics-10.png)
+
+[구글 애널리틱스](https://analytics.google.com/)의 "보고서" 탭의 "라이브러리" 탭에 접속하면 서치 콘솔 컬렉션이 전시된다. 만약 없다면 하루 뒤 확인해본다. 서치 콘솔의 "케밥 메뉴"(세로로 점 3개가 나열된 아이콘)을 눌러 "게시"를 클릭한다.
+
+![Alt text](https://yoonminlee-blog-image.s3.ap-northeast-2.amazonaws.com/connect-google-search-console-analytics-11.png)
+
+이제 보고서 메뉴에 서치 콘솔 메뉴가 생긴 것을 확인할 수 있다. 여기서 구글 자연 검색의 검색어와 유입 페이지 등을 확인할 수 있다.
+
+# 4. 서치 콘솔 보고서 확인
+
+서치 콘솔 보고서는 구글 애널리틱스와 구글 서치 콘솔이 통합된 기능을 제공한다. 이 보고서를 사용하면 웹사이트의 검색 트래픽, 성능, 사용자의 검색 쿼리 등을 분석할 수 있다.
+
+![Alt text](https://yoonminlee-blog-image.s3.ap-northeast-2.amazonaws.com/connect-google-search-console-analytics-12.png)
+
+구체적으로 다음과 같은 정보를 포함한다:
+
+1. **쿼리**: 사용자가 구글 검색에서 웹사이트를 찾기 위해 입력한 검색어이다. 이 데이터를 통해 가장 인기 있는 검색 쿼리를 파악하고, 특정 키워드에 대한 웹사이트의 성능을 분석할 수 있다.
+2. **페이지**: 사용자가 검색 결과에서 클릭하여 방문한 웹사이트의 페이지이다. 가장 많이 방문한 페이지를 알 수 있으며, 이를 통해 콘텐츠 전략을 조정할 수 있다.
+3. **국가**: 방문자의 위치 정보이다. 다양한 지역에서의 웹사이트 성능을 분석할 수 있다.
+4. **기기**: 방문자가 사용한 기기(모바일, 태블릿, 데스크탑) 정보이다. 기기별 성능을 분석하여 최적화 전략을 세울 수 있다.
+
+
+## 4.1 Google 자연 검색 트래픽 메뉴
+
+Google 자연 검색 트래픽은 구글 애널리틱스에서 웹사이트로 유입되는 트래픽 중에서 구글 검색을 통해 자연스럽게 발생하는 방문자를 분석하는 부분이다.
+
+![Alt text](https://yoonminlee-blog-image.s3.ap-northeast-2.amazonaws.com/connect-google-search-console-analytics-13.png)
+
+이 메뉴를 통해 다음과 같은 분석을 할 수 있다:
+
+1. **방문자 수**: 구글 자연 검색을 통해 웹사이트를 방문한 사용자 수이다.
+2. **세션 수**: 검색을 통해 생성된 총 세션 수이다.
+3. **반송률**: 단일 페이지 방문 후 사이트를 떠난 방문자의 비율이다. 낮은 반송률은 콘텐츠가 관련성이 높고 사용자의 관심을 끌었다는 신호가 될 수 있다.
+4. **페이지/세션**: 세션당 평균 페이지 조회 수이다. 이 지표는 사용자의 사이트 내 활동 정도를 나타낸다.
+5. **평균 세션 지속 시간**: 사용자가 사이트에 머문 평균 시간이다.
+
+이 두 기능을 통해 웹사이트의 검색 엔진 최적화(SEO) 상태를 평가하고, 사용자의 검색 패턴과 선호도에 맞춰 콘텐츠와 마케팅 전략을 조정할 수 있다.
+
+# 5. 마무리
+
+## 5.1 관련 아티클
+
+- **자파(Zappa) 튜토리얼**
+    1. [플라스크(Flask) 서버리스(Serverless) 배포](/zappa-flask-serverless-deployment)
+    2. [사용자 정의 도메인(Custom Domain) 연결(Feat. AWS Route53 & 가비아(Gabia))](/zappa-custom-domain-route53-gabia)
+    3. [스테이지(Stage) & 로그 레벨(Log level) 관리](/zappa-stage-log-level-management)
+    4. [배포 해제 및 사용자 정의 도메인(Custom Domain) 제거](/zappa-undeploy-custom-domain-removal)
+- [파비콘 만들기 및 적용 완벽 튜토리얼: Adobe Color, favicon.io, RealFaviconGenerator 사이트 활용](/favicon-creation-tutorial)
+- [웹 배포 후 검색 노출(SEO) 세팅 완벽 가이드 (w/ 플라스크(Flask))](/web-deployment-seo-guide)
+- [웹 배포 후 트래픽 분석 및 수익화를 위한 구글 애널리틱스(Google Analytics, GA4)와 애드센스(AdSense) 초기 세팅 및 연동 완벽 가이드](/google-analytics-adsense-setup-guide)
+- [구글 서치 콘솔(Google Search Console)과 구글 애널리틱스(Google Analytics, GA4) 연결](/connect-google-search-console-analytics)
