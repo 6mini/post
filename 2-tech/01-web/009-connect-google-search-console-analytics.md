@@ -80,11 +80,11 @@ tags: ['구글 애널리틱스(Google Analytics, GA4)', 구글 서치 콘솔(Goo
 
 구글 애널리틱스 보고서에서 서치 콘솔 데이터를 확인하기 위해 라이브러리를 추가한다.
 
-![Alt text](https://yoonminlee-blog-image.s3.ap-northeast-2.amazonaws.com/connect-google-search-console-analytics-10.png)
+![구글 애널리틱스의 서치 콘솔 라이브러리 게시](https://yoonminlee-blog-image.s3.ap-northeast-2.amazonaws.com/connect-google-search-console-analytics-10.png)
 
 [구글 애널리틱스](https://analytics.google.com/)의 "보고서" 탭의 "라이브러리" 탭에 접속하면 서치 콘솔 컬렉션이 전시된다. 만약 없다면 하루 뒤 확인해본다. 서치 콘솔의 "케밥 메뉴"(세로로 점 3개가 나열된 아이콘)을 눌러 "게시"를 클릭한다.
 
-![Alt text](https://yoonminlee-blog-image.s3.ap-northeast-2.amazonaws.com/connect-google-search-console-analytics-11.png)
+![보고서 메뉴의 서치 콘솔 메뉴](https://yoonminlee-blog-image.s3.ap-northeast-2.amazonaws.com/connect-google-search-console-analytics-11.png)
 
 이제 보고서 메뉴에 서치 콘솔 메뉴가 생긴 것을 확인할 수 있다. 여기서 구글 자연 검색의 검색어와 유입 페이지 등을 확인할 수 있다.
 
@@ -92,7 +92,7 @@ tags: ['구글 애널리틱스(Google Analytics, GA4)', 구글 서치 콘솔(Goo
 
 서치 콘솔 보고서는 구글 애널리틱스와 구글 서치 콘솔이 통합된 기능을 제공한다. 이 보고서를 사용하면 웹사이트의 검색 트래픽, 성능, 사용자의 검색 쿼리 등을 분석할 수 있다.
 
-![Alt text](https://yoonminlee-blog-image.s3.ap-northeast-2.amazonaws.com/connect-google-search-console-analytics-12.png)
+![서치 콘솔 보고서의 쿼리 메뉴](https://yoonminlee-blog-image.s3.ap-northeast-2.amazonaws.com/connect-google-search-console-analytics-12.png)
 
 구체적으로 다음과 같은 정보를 포함한다:
 
@@ -106,7 +106,7 @@ tags: ['구글 애널리틱스(Google Analytics, GA4)', 구글 서치 콘솔(Goo
 
 Google 자연 검색 트래픽은 구글 애널리틱스에서 웹사이트로 유입되는 트래픽 중에서 구글 검색을 통해 자연스럽게 발생하는 방문자를 분석하는 부분이다.
 
-![Alt text](https://yoonminlee-blog-image.s3.ap-northeast-2.amazonaws.com/connect-google-search-console-analytics-13.png)
+![서치 콘솔 보고서의 Google 자연 검색 트래픽 메뉴](https://yoonminlee-blog-image.s3.ap-northeast-2.amazonaws.com/connect-google-search-console-analytics-13.png)
 
 이 메뉴를 통해 다음과 같은 분석을 할 수 있다:
 
