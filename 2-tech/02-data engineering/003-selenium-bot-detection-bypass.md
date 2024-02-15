@@ -102,13 +102,13 @@ driver.quit()
 
 EditThisCookie는 크롬 확장 프로그램으로, 웹 브라우저의 쿠키를 쉽게 관리할 수 있도록 도와준다. 이 확장 프로그램을 사용하여 쿠키를 저장하는 과정은 다음과 같다.
 
-### 2.1.2.1 EditThisCookie 설치
+#### 2.1.2.1 EditThisCookie 설치
 
 ![EditThisCookie 설치](https://yoonminlee-blog-image.s3.ap-northeast-2.amazonaws.com/selenium-bot-detection-bypass-1.png)
 
 크롬 웹 스토어에서 [EditThisCookie](https://chromewebstore.google.com/detail/fngmhnnpilhplaeedifhccceomclgfbg?hl=ko) 확장 프로그램을 설치한다.
 
-### 2.1.2.2 쿠키 내보내기
+#### 2.1.2.2 쿠키 내보내기
 
 ![EditThisCookie 쿠키 내보내기](https://yoonminlee-blog-image.s3.ap-northeast-2.amazonaws.com/selenium-bot-detection-bypass-2.png)
 
