@@ -400,7 +400,11 @@ def lambda_handler(event, context):
 
 이 아티클을 통해, Amazon Web Services(AWS)의 Elastic Compute Cloud(EC2)를 활용하여 웹 크롤링 시 IP 차단을 우회하는 방법과 크롤링 작업을 자동화하는 전체적인 프로세스를 소개했다. 이 방법은 IP 차단을 효과적으로 우회하고, 크롤링 작업의 연속성을 유지할 수 있게 해주며, AWS의 다양한 서비스를 사용하여 크롤링 작업을 완전 자동화하는 방법을 설명했다. 이 과정에서 EC2 인스턴스의 재부팅을 통한 IP 주소 변경, 멀티 스레딩을 이용한 효율적인 데이터 수집, AWS S3와 람다(Lambda) 함수를 사용한 작업의 자동 재시작 및 종료 제어 등을 다루었다. 또한, 재부팅 시 자동 실행을 위한 크론탭(CronTab) 설정과 시작, 재부팅, 종료를 위한 람다 함수의 구현 방법을 살펴보았다.
 
-## 6.1 전체 코드
+## 6.1 관련 아티클
+
+- [셀레니움(Selenium) 웹 크롤링 봇 탐지 우회 방법 4단계: 옵션, 쿠키, VPN, 크롬 디버깅 모드](/selenium-bot-detection-bypass)
+
+## 6.2 전체 코드
 
 - [GitHub Gist: 6mini/web_crawling_ip_bypass_with_ec2.py](https://gist.github.com/6mini/44ff7413f1b88bdb377e8f2ca731d5f5)
 
