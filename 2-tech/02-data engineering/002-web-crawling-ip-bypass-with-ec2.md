@@ -396,6 +396,28 @@ def lambda_handler(event, context):
     ec2.start_instances(InstanceIds=[instance_id])
 ```
 
+## 5.5 IAM 역할 설정
+
+람다 함수가 EC2 인스턴스를 제어하기 위해서는 적절한 권한을 가진 IAM 역할을 설정해야 한다. 람다 함수에 IAM 권한을 부여하는 방법은 다음 아티클을 참고한다: [AWS 람다(Lambda) 튜토리얼(2): 환경 변수 설정, IAM 역할에 권한 추가, 타임아웃 및 메모리 설정](/aws-lambda-environment-variables-iam-timeout-memory)
+
+아래는 EC2 인스턴스를 제어하기 위한 IAM 정책의 JSON 예시이다:
+
+```json
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "ec2:StartInstances",
+                "ec2:StopInstances"
+            ],
+            "Resource": "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-01a23456b7cd8910e"
+        }
+    ]
+}
+```
+
 # 6. 마무리 및 참고
 
 이 아티클을 통해, Amazon Web Services(AWS)의 Elastic Compute Cloud(EC2)를 활용하여 웹 크롤링 시 IP 차단을 우회하는 방법과 크롤링 작업을 자동화하는 전체적인 프로세스를 소개했다. 이 방법은 IP 차단을 효과적으로 우회하고, 크롤링 작업의 연속성을 유지할 수 있게 해주며, AWS의 다양한 서비스를 사용하여 크롤링 작업을 완전 자동화하는 방법을 설명했다. 이 과정에서 EC2 인스턴스의 재부팅을 통한 IP 주소 변경, 멀티 스레딩을 이용한 효율적인 데이터 수집, AWS S3와 람다(Lambda) 함수를 사용한 작업의 자동 재시작 및 종료 제어 등을 다루었다. 또한, 재부팅 시 자동 실행을 위한 크론탭(CronTab) 설정과 시작, 재부팅, 종료를 위한 람다 함수의 구현 방법을 살펴보았다.
@@ -635,3 +657,18 @@ def lambda_handler(event, context):
     # 인스턴스 시작
     ec2.start_instances(InstanceIds=[instance_id])
 ```
+
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "ec2:StartInstances",
+                "ec2:StopInstances"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
