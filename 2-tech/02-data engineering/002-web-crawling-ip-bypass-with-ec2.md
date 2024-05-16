@@ -657,18 +657,3 @@ def lambda_handler(event, context):
     # 인스턴스 시작
     ec2.start_instances(InstanceIds=[instance_id])
 ```
-
-
-{
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Effect": "Allow",
-            "Action": [
-                "ec2:StartInstances",
-                "ec2:StopInstances"
-            ],
-            "Resource": "*"
-        }
-    ]
-}

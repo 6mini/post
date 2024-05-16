@@ -103,4 +103,5 @@ for holiday, holiday_name in holidays:
 
 ## 4.2 관련 아티클
 
+- [파이썬(Python)으로 오늘이나 특정 날짜가 평일(영업일, 근무일)인지 휴일(주말, 공휴일)인지 확인하는 방법(Feat. holidayskr)](/python-check-business-day-holidayskr)
 - [파이썬 패키지를 PyPI(Python Package Index)에 배포하는 방법부터 GitHub Actions를 통한 자동화까지](/python-package-deployment-pypi-github-actions)

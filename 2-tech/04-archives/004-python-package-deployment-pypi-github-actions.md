@@ -654,3 +654,8 @@ $ git push origin --tags
 - [Python Packaging User Guide](https://packaging.python.org/)
 - [Semantic Versioning 2.0.0](https://semver.org/)
 - [Automate PyPi releases with Github Actions](https://medium.com/@VersuS_/automate-pypi-releases-with-github-actions-4c5a9cfe947d)
+
+## 4.3 관련 아티클
+
+- [파이썬(Python)으로 오늘이나 특정 날짜가 평일(영업일, 근무일)인지 휴일(주말, 공휴일)인지 확인하는 방법(Feat. holidayskr)](/python-check-business-day-holidayskr)
+- [파이썬(Python)으로 한국의 휴일(공휴일)을 확인하는 최신 방법(Feat. holidayskr)](/python-holidayskr-korean-holiday-check-guide)
